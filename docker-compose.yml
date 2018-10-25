@@ -1,0 +1,7 @@
+version: '3'
+services:
+  envoy:
+    build: .
+    image: envoy_server
+    ports:
+     - "8081:8081"
